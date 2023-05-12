@@ -17,7 +17,7 @@
 
 .repo-item .wraper:hover,
 .repo-item .wraper:active {
-    background: #ffd900;
+    background: #a0942d;
 }
 
 .repo-item__content {
@@ -34,7 +34,7 @@
     font-size: 1.5rem;
     margin: 0 0 0.5rem 0;
     font-weight: normal;
-    color: #ffd900;
+    color: #a0942d;
 }
 
 .repo-item:hover h2,

@@ -27,6 +27,9 @@ const NavLinks = (props) => {
         <li>
             <NavLink to="/policy">Politicas</NavLink>
         </li>
+        <li>
+            <NavLink to="/policy">Marketing</NavLink>
+        </li>
 
     </ul>
 };
