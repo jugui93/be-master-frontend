@@ -1,0 +1,49 @@
+.repo-item {
+    margin: 1rem;
+    width: calc(45% - 2rem);
+    min-width: 17.5rem;
+}
+
+.repo-item .wraper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    background: #292929;
+}
+
+.repo-item .wraper:hover,
+.repo-item .wraper:active {
+    background: #ffd900;
+}
+
+.repo-item__content {
+    padding: 0;
+}
+
+.repo-item__image img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.repo-item__info h2 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: normal;
+    color: #ffd900;
+}
+
+.repo-item:hover h2,
+.repo-item:active h2,
+.repo-item:hover h3,
+.repo-item:active h3 {
+    color: #292929;
+}
+
+.repo-item__info h3 {
+    margin: 0;
+}
