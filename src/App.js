@@ -5,6 +5,7 @@ import Index from './pages/Index'
 import Repos from './pages/Repos';
 import Function from './pages/Function';
 import Logic from './pages/Logic';
+import Database from './pages/Database';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/repos" element={<Repos />} exact />
           <Route path="/function" element={<Function />} exact />
           <Route path="/logic" element={<Logic />} exact />
+          <Route path="/database" element={<Database />} exact />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </main>
