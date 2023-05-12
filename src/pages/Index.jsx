@@ -7,7 +7,7 @@ const Index = () => {
       <Card className="wide">
         <h1>Reto tecnico Backend Developer</h1> 
         <p>
-          Para obtener la respuesta a cada uno de los puntos,<br></br> clickea sobre la
+          Para obtener la respuesta a cada uno de los puntos,<br /> clickea sobre la
           respectiva opción en la barra superior.{" "}
         </p>
       </Card>

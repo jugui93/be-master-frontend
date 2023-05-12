@@ -40,7 +40,7 @@ const Logic = () => {
         <br></br>
         <form action="" onSubmit={handleSubmit}>
           <label htmlFor="limit">
-            Ingresa un numero mayor a 0:<br></br>
+            Ingresa un numero mayor a 0:<br />
             <input
               type="number"
               id="limit"

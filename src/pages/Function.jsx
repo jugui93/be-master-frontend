@@ -15,33 +15,33 @@ const Function = () => {
             {" "}
             function f(x,y,z) {"{"}
             <br></br>
-            let a = x + y;<br></br>
-            let b = a * z;<br></br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;let c = Math.sin(b);<br></br>
-            return c;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></br>
+            let a = x + y;<br />
+            let b = a * z;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;let c = Math.sin(b);<br />
+            return c;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
             {"}"}
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </code>
         </p>
         <p>
           Una manera descriptiva de llamar la función y sus parametros, sería{" "}
-          <br></br>la siguiente:<br></br>
+          <br />la siguiente:<br />
           <code>
             {" "}
             function calcularSeno(coordenadaX,coordenadaY,coordenadaZ) {"{"}
-            <br></br>
-            let suma = coordenadaX + coordenadaY;<br></br>
-            let producto = suma * coordenadaZ;&nbsp;&nbsp;&nbsp;<br></br>
+            <br />
+            let suma = coordenadaX + coordenadaY;<br />
+            let producto = suma * coordenadaZ;&nbsp;&nbsp;&nbsp;<br />
             let seno =
             Math.sin(producto);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <br></br>
+            <br />
             return
             seno;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <br></br>
+            <br />
             {"}"}
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </code><br></br>
-          En este caso se identifica que la función es usada para calcular el seno de una <br></br>
+          </code><br />
+          En este caso se identifica que la función es usada para calcular el seno de una <br />
           correlación existente entre las coordenadas X, Y y Z en un espacio. 
         </p>
       </Card>
